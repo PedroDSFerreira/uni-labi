@@ -1,0 +1,13 @@
+/* Ficheiro de estilos */
+
+.style_about {
+	color: black;
+	background-color: red;
+	text-align: center; 
+}
+
+/* Create two columns (left and right boxes) with the same size */
+/* Put map and image side by side */
+.columnleft { float: left; width: 500px; height: 425px; margin: 20px; }
+.columnright { float: right; width: 500px; height: 425px; margin: 20px; }
+.row:after { content: ""; display: table; clear: both; }
